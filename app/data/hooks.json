@@ -1,0 +1,58 @@
+[
+  {
+    "id": "auto-prettier",
+    "name": "Auto-format with Prettier",
+    "category": "formatting",
+    "description": "Automatically formats TypeScript and JavaScript files using Prettier whenever a file is edited through Claude Code. Ensures consistent code style across your project.",
+    "githubUrl": "https://github.com/example/claude-prettier-hook"
+  },
+  {
+    "id": "test-on-save",
+    "name": "Run Tests on Save",
+    "category": "testing",
+    "description": "Triggers your test suite automatically after file modifications. Provides immediate feedback on whether your changes broke existing functionality.",
+    "githubUrl": "https://github.com/example/claude-test-hook"
+  },
+  {
+    "id": "commit-logger",
+    "name": "Git Commit Logger",
+    "category": "git",
+    "description": "Logs all git commits made through Claude Code to a separate audit file. Useful for tracking AI-assisted code changes and maintaining a detailed project history.",
+    "githubUrl": "https://github.com/example/claude-commit-logger"
+  },
+  {
+    "id": "eslint-auto-fix",
+    "name": "ESLint Auto-fix",
+    "category": "linting",
+    "description": "Runs ESLint with auto-fix enabled after code edits. Catches common errors and style issues immediately while working with Claude Code.",
+    "githubUrl": "https://github.com/example/claude-eslint-hook"
+  },
+  {
+    "id": "build-validator",
+    "name": "Build Validator",
+    "category": "automation",
+    "description": "Automatically runs your build process after significant changes to verify the project still compiles. Prevents broken builds from creeping in during development.",
+    "githubUrl": "https://github.com/example/claude-build-validator"
+  },
+  {
+    "id": "tool-usage-tracker",
+    "name": "Tool Usage Analytics",
+    "category": "logging",
+    "description": "Tracks which Claude Code tools are used most frequently and generates usage statistics. Helps understand your development patterns and optimize workflows.",
+    "githubUrl": "https://github.com/example/claude-tool-tracker"
+  },
+  {
+    "id": "notification-slack",
+    "name": "Slack Notifications",
+    "category": "notification",
+    "description": "Sends notifications to a Slack channel whenever Claude Code completes significant operations. Keep your team informed about AI-assisted development progress.",
+    "githubUrl": "https://github.com/example/claude-slack-hook"
+  },
+  {
+    "id": "custom-workflow",
+    "name": "Custom Deployment Workflow",
+    "category": "workflow",
+    "description": "Orchestrates a custom deployment pipeline that runs after code changes are approved. Integrates with your existing CI/CD tools and deployment infrastructure.",
+    "githubUrl": "https://github.com/example/claude-deploy-hook"
+  }
+]
